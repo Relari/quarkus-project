@@ -12,7 +12,7 @@ import com.pe.relari.model.Employee;
 import java.util.List;
 
 @AllArgsConstructor
-@Path("/v1/employees")
+@Path("/api/v1/employees")
 public class EmployeeResource {
 
     EmployeeService employeeService;
